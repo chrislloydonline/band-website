@@ -2,11 +2,11 @@
 <html lang="en">
 
     <head>
+        <title>Bastille Band Page</title>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Bastille Band Page</title>
-
+        
         <!--Google Fonts-->
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&family=Roboto+Slab:wght@800&display=swap" rel="stylesheet">
@@ -20,19 +20,18 @@
         <link rel="stylesheet" href="stylesheet.css">
 
     </head>
-        
+
     <Body>
-        <h1 class="header">Bastille</h1>
+    <h1 class="header">Bastille</h1>
 
-    <hr>
+    <hr style="width:85%; margin: auto;" />
 
-        <h2>New Album 'Doom Days' Out Now!</h2>
+    <marquee behavior="scroll" direction="left"><h2 class="website_banner"><a href="#tour" class="nav__link">**New Tour Dates Announced**</a></h2></marquee>
 
     <div class="container">
-        <main>
         <div class="row">
             <div class="col-sm">
-                <div class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel_slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             <img class="image" src="Assets\Bad_Blood.png" class="d-block w-100" alt="Bad Blood Album Cover">
@@ -46,25 +45,48 @@
                     </div>
                 </div>
             </div>        
+            <div class="col-sm">
+                    <p class="band_info">Bastille are an English pop rock band, who were formed in 2010.</p>
+                    <p class="band_info">After being signed to Virgin Records, they releasd their first studio album in March 2013 entitled 'Bad Blood' 
+                    which reached the number one spot on the UK Album Chart and produced the hugley popular single 'Pompei', which 
+                    reached number two in the UK Singles Chart.</p>
+                    <p class="band_info">In Novemebr 2019 they recorded a version of 'Can't Fight This Feeling' for the John Lewis and Waitrose Christmas advertisements. 
+                    As of February 2021 they have released three studio albums and embarked on three sell out UK tours to accompany 
+                    each album. They have sold over nine million records worldwide.</p>
+            </div>
         </div>
-        <div class="col-sm band information">
-
-            <p>Bastille are an English pop rock band, who were formed in 2010.</p>
-
-            <p>After being signed to Virgin Records, they releasd their first studio album in March 2013 entitled 'Bad Blood' 
-            which reached the number one spot on the UK Album Chart and produced the hugley popular single 'Pompei', which 
-            reached number two in the UK Singles Chart.</p>
-
-            <p>In Novemebr 2019 they recorded a version of 'Can't Fight This Feeling' for the John Lewis and Waitrose Christmas advertisements. 
-            As of February 2021 they have released three studio albums and embarked on three sell out UK tours to accompany 
-            each album. They have sold over nine million records worldwide.</p>
-        </div>
-        </main>
     </div>
+
+    <hr style="width:85%; margin: auto;" />
+
+    <h2 class="tour_date" id="tour">Tour Dates</h2>
+    <h4>New Dates Added Due To Demand</h4>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm">
+                <ul>18 March 2022 - Cardiff</ul>
+                <ul>20 March 2022 - Birmingham</ul>
+                <ul class="extra_date">21 March 2022 - Birmingham</ul>
+                <ul>24 March 2022 - London O2 Arena</ul>
+                <ul>25 March 2022 - London O2 Arena</ul>
+            </div>
+            <div class="col-sm">
+                <ul>28th March 2022 - Sheffield</ul>
+                <ul>29th March 2022 - Leeds</ul>
+                <ul class="extra_date">30th March 2022 - Leeds</ul>
+                <ul>1st April 2022 - Manchester</ul>
+                <ul class="extra_date">2nd April 2022 - Manchester</ul>
+            </div>
+        </div>
+    </div>
+
+    <button id="button" class="btn btn-lg btn-outline-light">Buy Tickets</button>
 
         <Footer>
             &copy;2021
         </Footer>
+
     </Body>
 
 
